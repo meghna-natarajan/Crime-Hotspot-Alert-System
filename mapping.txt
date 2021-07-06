@@ -1,0 +1,80 @@
+//current
+
+"OFFENSE_TYPE_ID": {
+            "type": "text"
+        },
+        "OFFENSE_CATEGORY_ID": {
+            "type": "text"
+        },
+        "REPORTED_DATE": {
+            "type": "date",
+            "format": "dd-MM-yyyy HH:mm:ss"
+        },
+        "INCIDENT_ADDRESS": {
+            "type": "text"
+        },
+        "LOCATION": { 
+            //will contain geo_lon and geo_lat
+            "type": "geo_point"
+        },
+        "NEIGHBORHOOD_ID": {
+            "type": "text"
+        }
+
+// old
+{
+        // "INCIDENT_ID": {
+        //     "type": "text"
+        // },
+        // "OFFENSE_ID": {
+        //     "type": "text"
+        // },
+        // "OFFENSE_CODE": {
+        //     "type": "text"
+        // },
+        // "OFFENSE_CODE_EXTENSION": {
+        //     "type": "text"
+        // },
+        "OFFENSE_TYPE_ID": {
+            "type": "text"
+        },
+        "OFFENSE_CATEGORY_ID": {
+            "type": "text"
+        },
+        // "FIRST_OCCURRENCE_DATE": {
+        //     "type": "text"
+        // },
+        // "LAST_OCCURRENCE_DATE": {
+        //     "type": "text"
+        // },
+        "REPORTED_DATE": {
+            "type": "date"
+        },
+        "INCIDENT_ADDRESS": {
+            "type": "text"
+        },
+        // "GEO_X": {
+        //     "type": "text"
+        // },
+        // "GEO_Y": {
+        //     "type": "text"
+        // },
+        "LOCATION": { //will contain geo_lon and geo_lat
+            "type": "geo_point"
+        },
+        // "DISTRICT_ID": {
+        //     "type": "text"
+        // },
+        // "PRECINCT_ID": {
+        //     "type": "text"
+        // },
+        "NEIGHBORHOOD_ID": {
+            "type": "text"
+        },
+        // "IS_CRIME": {
+        //     "type": "text"
+        // },
+        // "IS_TRAFFIC": {
+        //     "type": "text"
+        // }
+    }
